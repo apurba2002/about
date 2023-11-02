@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.top {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav .left {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .left p {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav .right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.nav .right a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero .left {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .left p {
+  color: white;
+  text-transform: capitalize;
+}
+
+.hero .left :first-child {
+  font-size: 1.7em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero .left :nth-child(2) {
+  font-size: 4em;
+  margin-bottom: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+}
+
+.hero .left :nth-child(3) {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.hero .left :nth-child(4) {
+  text-transform: uppercase;
+  line-height: 2em;
+  word-spacing: 0.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+}
+
+.hero .right {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.hero .right img {
+  width: 80%;
+  height: 70vh;
+  border-radius: 100%;
+}
+
+.skill {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  gap: 10vh;
+}
+
+.skill p {
+  color: white;
+  font-size: 4em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  height: 20vh;
+}
+
+.skill div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.skill div .card {
+  background-color: rgba(96, 116, 176, 0.493);
+  width: 30%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.skill div .card p {
+  height: auto;
+  font-size: 3em;
+}
+
+.contact {
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .left {
+  width: 50%;
+  height: 100vh;
+}
+
+.contact .left :first-child {
+  font-size: 3.8em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 10vh;
+  line-height: normal;
+  word-spacing: normal;
+}
+
+.contact .left p {
+  font-size: 1.2em;
+  color: white;
+  margin-top: 10vh;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 2em;
+  word-spacing: 0.5em;
+}
+
+.contact .right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.contact .right p {
+  font-size: 3em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 10vh;
+  line-height: normal;
+  word-spacing: normal;
+}
+
+.contact .right form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.contact .right input {
+  width: calc(100% - 20px);
+  border-radius: 15px;
+  height: 10vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.contact .right button {
+  width: 40%;
+  height: 10vh;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: gray;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+}
+
+.contact .right button:hover {
+  background-color: white;
+  color: black;
+  transition: 1.5s;
+}
+
+.project {
+  width: 75%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.project p {
+  font-size: 3.8em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 10vh;
+  line-height: normal;
+  word-spacing: normal;
+}
+
+.project .card-grp {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project .card-grp .card {
+  width: 30%;
+  height: 60vh;
+  background-color: rgba(96, 116, 176, 0.494);
+  border-radius: 15px;
+}
+
+.project .card-grp .card img {
+  width: 100%;
+  height: 35vh;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.project .card-grp .card p {
+  font-size: 1.8em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 2vh;
+  margin-left: 5%;
+  line-height: normal;
+  word-spacing: normal;
+}
+
+.project .card-grp .card .btn-grp {
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+
+}
+
+.project .card-grp .card .btn-grp button {
+  width: 45%;
+  height: 6vh;
+
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: black;
+}
+.project .card-grp .card .btn-grp button:hover {
+  background-color: rgb(51, 51, 212);
+  transition: 0.5s;
+}
