@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: black;
+
 }
 
 .top {
@@ -55,7 +55,7 @@ body {
 }
 
 .nav .right a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .hero .left p {
-  color: white;
+ 
   text-transform: capitalize;
 }
 
@@ -115,12 +115,13 @@ body {
   display: flex;
   justify-content: right;
   align-items: center;
+
 }
 
 .hero .right img {
   width: 80%;
   height: 70vh;
-  border-radius: 100%;
+  border-radius: 100%;  display: none;
 }
 
 .skill {
@@ -133,13 +134,13 @@ body {
 }
 
 .skill p {
-  color: white;
+
   font-size: 4em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: capitalize;
   font-weight: 900;
-  height: 20vh;
+  height: 10vh;
 }
 
 .skill div {
@@ -150,7 +151,7 @@ body {
 }
 
 .skill div .card {
-  background-color: rgba(96, 116, 176, 0.493);
+  background-color: rgba(176, 96, 96, 0.493);
   width: 30%;
   height: 20vh;
   display: flex;
@@ -180,7 +181,7 @@ body {
   font-size: 3.8em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: white;
+ 
   font-weight: 900;
   text-transform: capitalize;
   margin-top: 10vh;
@@ -189,8 +190,7 @@ body {
 }
 
 .contact .left p {
-  font-size: 1.2em;
-  color: white;
+
   margin-top: 10vh;
   text-transform: capitalize;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -210,7 +210,7 @@ body {
   font-size: 3em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: white;
+
   font-weight: 900;
   text-transform: capitalize;
   margin-top: 10vh;
@@ -232,7 +232,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 .contact .right button {
@@ -240,99 +240,18 @@ body {
   height: 10vh;
   border-radius: 15px;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid black;
   color: gray;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1em;
 }
 
 .contact .right button:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   transition: 1.5s;
 }
 
-.project {
-  width: 75%;
-
-  display: flex;
-  flex-direction: column;
-  gap: 10vh;
-}
-
-.project p {
-  font-size: 3.8em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: white;
-  font-weight: 900;
-  text-transform: capitalize;
-  margin-top: 10vh;
-  line-height: normal;
-  word-spacing: normal;
-}
-
-.project .card-grp {
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.project .card-grp .card {
-  width: 30%;
-  height: 60vh;
-  background-color: rgba(96, 116, 176, 0.494);
-  border-radius: 15px;
-}
-
-.project .card-grp .card img {
-  width: 100%;
-  height: 35vh;
-  border-radius: 15px 15px 0px 0px;
-}
-
-.project .card-grp .card p {
-  font-size: 1.8em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: white;
-  font-weight: 900;
-  text-transform: capitalize;
-  margin-top: 2vh;
-  margin-left: 5%;
-  line-height: normal;
-  word-spacing: normal;
-}
-
-.project .card-grp .card .btn-grp {
-  margin-left: 5%;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5vh;
-
-}
-
-.project .card-grp .card .btn-grp button {
-  width: 45%;
-  height: 6vh;
-
-  color: white;
-  border: none;
-  border-radius: 15px;
-  font-weight: 300;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1em;
-  text-transform: capitalize;
-  background-color: black;
-}
-
-.project .card-grp .card .btn-grp button:hover {
-  background-color: rgb(51, 51, 212);
-  transition: 0.5s;
-}
 
 .des {
   width: 75%;
@@ -347,7 +266,7 @@ body {
 
 .des p {
   font-size: 1em;
-  color: white;
+ 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 80%;
   font-weight: 400;
