@@ -4,6 +4,27 @@
   flex-direction: column;
   gap: 10vh;
   margin-top: 10vh;
+  padding-bottom: 15vh;
+  border-bottom: 3px solid black;
+}
+
+
+.project-grp p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3em;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5vh;
+
+}
+
+.title {
+  border-bottom: 3px solid black;
+
+
+  height: 15vh;
 }
 
 .project {
@@ -13,6 +34,7 @@
   justify-content: space-between;
   margin-bottom: 10vh;
 }
+
 .project div {
   width: 40%;
   height: 40vh;
@@ -20,6 +42,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .project div p {
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -30,6 +53,7 @@
   margin: 0;
   margin-bottom: 5vh;
 }
+
 .project div button {
   width: 30%;
   padding: 10px;
@@ -43,19 +67,32 @@
   border: none;
   border-radius: 15px;
 }
-.project div img{
-    width: 80%;
-    height: 30vh;
+
+.project div img {
+  width: 80%;
+  height: 30vh;
 }
-.bg{
+
+.bg {
   background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.project-grp :nth-child(2) div {
-    align-items: end;
+
+.project-grp :nth-child(3) div {
+  align-items: end;
+
 }
-.project-grp :nth-child(2) :first-child {
+
+.project-grp :nth-child(5) div {
+  align-items: end;
+}
+
+.project-grp :nth-child(3) :first-child {
+  align-items: center;
+}
+
+.project-grp :nth-child(5) :first-child {
   align-items: center;
 }
