@@ -18,9 +18,9 @@
       </div>
       <div class="right">
         <a href="#" rel="noopener noreferrer">home</a>
-        <a href="#" rel="noopener noreferrer">contact</a>
-        <a href="#">skills</a>
-        <a href="#">projects</a>
+        <a href="#contact">contact</a>
+        <a href="#skill">skills</a>
+        <a href="#project">projects</a>
       </div>
     </div>
 
@@ -36,11 +36,13 @@
         </p>
       </div>
       <div class="right">
-        <img src="assets/t.png" alt="" />
+       <div>
+        <img src="assets/20221205_133243.jpg" alt="">
+       </div>
       </div>
     </div>
 
-    <div class="skill">
+    <div class="skill" id="skill">
       <p>my skills</p>
       <div>
         <div class="card">
@@ -66,7 +68,7 @@
         </div>
       </div>
     </div>
-    <div class="project-grp">
+    <div class="project-grp" id="project">
       <p class="title">
         projects
       </p>
@@ -114,7 +116,7 @@
       </div>
     </div>
 
-    <div class="edu-grp">
+    <div class="edu-grp" id="education">
       <p class="title">
         education
       </p>
@@ -152,12 +154,12 @@
       </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="left">
         <p>contact with me</p>
         <p>
-          address : 20/a north madertak , dhaka 1214.<br />Phone : 01306091544
-          <br />Email : akash01714595969@gmail.com
+          Address : 20/A North madertak , Dhaka 1214.<br />Phone : 01306091544
+          <br />Email : <a href="mailto:akash01714595969@gmail.com">akash01714595969@gmail.com</a>
         </p>
       </div>
       <div class="right">
@@ -170,6 +172,15 @@
         </form>
       </div>
     </div>
+
+    <footer>
+      <p>
+         All copyright reserved by Apurba Debnath
+      </p>
+      <p id="year">
+        
+      </p>
+    </footer>
   </div>
 
 
@@ -178,6 +189,10 @@
       window.open(link, "_blank")
 
     }
+    const date = new Date();
+    const year = date.getFullYear();
+    document.getElementById('year').innerHTML='(' + year + ')'
+
   </script>
 </body>
 
