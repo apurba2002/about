@@ -1,0 +1,62 @@
+@media screen and (max-width: 1280px){
+    .contact .right input{
+        height: 6vh;
+    }
+    .contact .right form{
+        gap: 2vh;
+    }
+    .contact .right button{
+        height: 6vh;
+    }
+    .education .left img{
+        width: 60%;
+    }
+    .education .right img{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 810px){
+    .hero .left :nth-child(2){
+        font-size: 2em;
+    }
+    .hero .left :nth-child(3){
+        font-size: 1em;
+    }
+    .hero .left :nth-child(4){
+        font-size: .7em;
+    }
+    .hero .right img{
+        height: 20vh;
+    }
+    .hero .right div{
+        height: 24vh;
+    }
+    .hero .left{
+        height: 22vh;
+    }
+    .hero .right{
+        height: 24vh;
+    }
+    .hero{
+        height: 30vh;
+    }
+    .skill div .card{
+        height: 8vh;
+    }
+    .skill div{
+        height: 8vh;
+    }
+    .skill{
+        height: 29vh;
+        gap: 5vh;
+        justify-content: start;
+        margin-top: 5vh;
+    }
+    .skill p{
+        height: 4vh;
+        font-size: 2em;
+    }
+    .skill div .card p{
+        font-size: 1em;
+    }
+}
